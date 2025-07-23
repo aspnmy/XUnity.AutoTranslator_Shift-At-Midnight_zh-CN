@@ -37,18 +37,20 @@ FromLanguage=en ;游戏原生语言
 
 ```
 [Behaviour]
-OverrideFontTextMeshPro=BepInEx\Translation\zh-CN\Fonts\cnFonts_01.asset
-FallbackFontTextMeshPro=BepInEx\Translation\zh-CN\Fonts\cnFonts_02.asset
+OverrideFontTextMeshPro=BepInEx\Translation\zh-CN\Fonts\cnFonts_01
+FallbackFontTextMeshPro=BepInEx\Translation\zh-CN\Fonts\cnFonts_02
 
 ```
 
 - FallbackFontTextMeshPro是备用字体包，如果需要配置的话，再制作一个，然后配置在ini中。
+### 9.3、字体文件位置，如果你不知道存放在哪里，那就存在游戏根目录上。我自己就是存这里的，当然ini的配置文件中需要改一下参数值。
 
 ## 10、运行游戏，正确显示中文。
 最后，希望作者原生支持简体中文。
 
 ## 11、相关资源包：简化大家操作，就放一个自动翻译挂载的整合包，复制到游戏Demo根目录下即可。请不要商用，保留出处即可。
 
+- 下载本git，覆盖在游戏Demo的根目录下。翻译文件已经内置，哪怕连不上搜索引擎也可以使用。
 
 ## 12、常见问题：
 ### 12.1 是否可以用Untiy 最新版来制作字体文件？
