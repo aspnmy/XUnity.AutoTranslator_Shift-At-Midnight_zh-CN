@@ -1,0 +1,6 @@
+; 以下为推荐标准翻译 (BepInEx/config/zh-CN.txt)
+Controls = 控制设置
+Control Scheme = 操控方案
+Keybindings = 键位设置
+Controller Sensitivity = 控制器灵敏度
+Invert Y-Axis = Y轴反转
